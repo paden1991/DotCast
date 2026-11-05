@@ -1,0 +1,393 @@
+{
+  "version": "0.1.3-beta",
+  "runtime": "Lua 5.1 with synthetic API fixtures",
+  "passed": 96,
+  "total": 96,
+  "liveGameVerified": false,
+  "checks": [
+    {
+      "name": "Startup and independent namespace",
+      "passed": true
+    },
+    {
+      "name": "Known ranks only",
+      "passed": true
+    },
+    {
+      "name": "WARRIOR learned selection",
+      "passed": true
+    },
+    {
+      "name": "ROGUE learned selection",
+      "passed": true
+    },
+    {
+      "name": "DRUID learned selection",
+      "passed": true
+    },
+    {
+      "name": "MAGE learned selection",
+      "passed": true
+    },
+    {
+      "name": "SHAMAN learned selection",
+      "passed": true
+    },
+    {
+      "name": "HUNTER learned selection",
+      "passed": true
+    },
+    {
+      "name": "PRIEST learned selection",
+      "passed": true
+    },
+    {
+      "name": "PALADIN learned selection",
+      "passed": true
+    },
+    {
+      "name": "All Warlock families",
+      "passed": true
+    },
+    {
+      "name": "Secure mouseover action no target change",
+      "passed": true
+    },
+    {
+      "name": "Reuse owned unchanged macros",
+      "passed": true
+    },
+    {
+      "name": "Protect user edited macro",
+      "passed": true
+    },
+    {
+      "name": "Full macro slots fail safely",
+      "passed": true
+    },
+    {
+      "name": "Empty aura enumeration means missing",
+      "passed": true
+    },
+    {
+      "name": "Own DoT timer",
+      "passed": true
+    },
+    {
+      "name": "Other player DoT does not satisfy",
+      "passed": true
+    },
+    {
+      "name": "Pet ownership not treated as player",
+      "passed": true
+    },
+    {
+      "name": "Unknown ownership stays unknown",
+      "passed": true
+    },
+    {
+      "name": "Nil ownership stays unknown",
+      "passed": true
+    },
+    {
+      "name": "Expiring warning remains faded at exactly two seconds",
+      "passed": true
+    },
+    {
+      "name": "Expiration never invents a recast",
+      "passed": true
+    },
+    {
+      "name": "Removed aura becomes missing",
+      "passed": true
+    },
+    {
+      "name": "Secret timer retains known presence",
+      "passed": true
+    },
+    {
+      "name": "Secret aura data stays unknown",
+      "passed": true
+    },
+    {
+      "name": "Unavailable aura API stays unknown",
+      "passed": true
+    },
+    {
+      "name": "Aura API exception stays unknown",
+      "passed": true
+    },
+    {
+      "name": "Secret identifiers not compared",
+      "passed": true
+    },
+    {
+      "name": "Bounded scan never fabricates absence",
+      "passed": true
+    },
+    {
+      "name": "Multi target independence",
+      "passed": true
+    },
+    {
+      "name": "Cache scans once per unit not per spell",
+      "passed": true
+    },
+    {
+      "name": "Aura event updates during combat",
+      "passed": true
+    },
+    {
+      "name": "Out of range only on definite false",
+      "passed": true
+    },
+    {
+      "name": "Secret range does not tint red",
+      "passed": true
+    },
+    {
+      "name": "Cooldown zero alpha includes all art",
+      "passed": true
+    },
+    {
+      "name": "Active effect zero alpha includes all art",
+      "passed": true
+    },
+    {
+      "name": "New roots in combat defer preparation",
+      "passed": true
+    },
+    {
+      "name": "Recycled plate clears old effect",
+      "passed": true
+    },
+    {
+      "name": "Friendly plate clears artwork",
+      "passed": true
+    },
+    {
+      "name": "Dead plate clears artwork",
+      "passed": true
+    },
+    {
+      "name": "Appearance deferred safely in combat",
+      "passed": true
+    },
+    {
+      "name": "Spell choice deferred safely in combat",
+      "passed": true
+    },
+    {
+      "name": "Disabled per-character spell persists",
+      "passed": true
+    },
+    {
+      "name": "Settings restored and invalid values repaired",
+      "passed": true
+    },
+    {
+      "name": "Options open preview and reset",
+      "passed": true
+    },
+    {
+      "name": "Minimap opens options",
+      "passed": true
+    },
+    {
+      "name": "Custom spell requires learned ID",
+      "passed": true
+    },
+    {
+      "name": "Custom spell and separate aura ID",
+      "passed": true
+    },
+    {
+      "name": "Disable leaves no armed buttons outside combat",
+      "passed": true
+    },
+    {
+      "name": "No borrowing CounterCast ownership",
+      "passed": true
+    },
+    {
+      "name": "CounterCast footprint reserved",
+      "passed": true
+    },
+    {
+      "name": "Too narrow plate fails without overlapping",
+      "passed": true
+    },
+    {
+      "name": "Status command reports build and effect",
+      "passed": true
+    },
+    {
+      "name": "Unavailable event cannot abort startup",
+      "passed": true
+    },
+    {
+      "name": "Stack count rendered and cleared",
+      "passed": true
+    },
+    {
+      "name": "Forever Lacerate resolves learned current ID",
+      "passed": true
+    },
+    {
+      "name": "Unknown Lacerate never creates button",
+      "passed": true
+    },
+    {
+      "name": "Moonfire never selects Starfire ID",
+      "passed": true
+    },
+    {
+      "name": "Rake highest rank tracks and warns",
+      "passed": true
+    },
+    {
+      "name": "Rake ignores another druid",
+      "passed": true
+    },
+    {
+      "name": "Flash strictly below two seconds with distinct phases",
+      "passed": true
+    },
+    {
+      "name": "Early warning still uses active opacity",
+      "passed": true
+    },
+    {
+      "name": "Flash remains under two even with customized early warning",
+      "passed": true
+    },
+    {
+      "name": "Refresh immediately stops flashing and restores configured fade",
+      "passed": true
+    },
+    {
+      "name": "Removal stops flashing and returns bright missing icon",
+      "passed": true
+    },
+    {
+      "name": "Restricted timing never flashes",
+      "passed": true
+    },
+    {
+      "name": "Combat flashing changes artwork without secure mutation",
+      "passed": true
+    },
+    {
+      "name": "Flash respects cooldown zero opacity",
+      "passed": true
+    },
+    {
+      "name": "Flash dims within cooldown ceiling",
+      "passed": true
+    },
+    {
+      "name": "Flash independent across targets",
+      "passed": true
+    },
+    {
+      "name": "Flashing survives glow disabled",
+      "passed": true
+    },
+    {
+      "name": "Options preview uses production flashing",
+      "passed": true
+    },
+    {
+      "name": "Unreadable aura table remains unknown without indexing",
+      "passed": true
+    },
+    {
+      "name": "Unreadable cooldown table never authorizes ready marker",
+      "passed": true
+    },
+    {
+      "name": "Unreadable spell information safely omitted",
+      "passed": true
+    },
+    {
+      "name": "Rejected table access predicate remains unknown",
+      "passed": true
+    },
+    {
+      "name": "Low mana removes ready marker and glow",
+      "passed": true
+    },
+    {
+      "name": "Resource recovery restores readiness",
+      "passed": true
+    },
+    {
+      "name": "Wrong form or other unusable state removes readiness",
+      "passed": true
+    },
+    {
+      "name": "Secret usability never authorizes readiness",
+      "passed": true
+    },
+    {
+      "name": "Missing usability API never authorizes readiness",
+      "passed": true
+    },
+    {
+      "name": "Usability API failure keeps tracker alive",
+      "passed": true
+    },
+    {
+      "name": "Low energy preserves flash without fake cast-ready glow",
+      "passed": true
+    },
+    {
+      "name": "Usability sampled once per spell across plates",
+      "passed": true
+    },
+    {
+      "name": "Fault in one plate does not stop healthy plate updates",
+      "passed": true
+    },
+    {
+      "name": "Repeated failure backs off and pauses after three attempts",
+      "passed": true
+    },
+    {
+      "name": "Explicit refresh recovers paused tracker and retains diagnostic",
+      "passed": true
+    },
+    {
+      "name": "Combat end recovers paused tracker",
+      "passed": true
+    },
+    {
+      "name": "Diagnostics limited to eight distinct entries",
+      "passed": true
+    },
+    {
+      "name": "Diagnostic command exposes captured failure without global hook",
+      "passed": true
+    },
+    {
+      "name": "Core update fault is bounded and recorded",
+      "passed": true
+    },
+    {
+      "name": "Partially initialized CounterCast cannot break update",
+      "passed": true
+    },
+    {
+      "name": "Diagnostics survive addon initialization",
+      "passed": true
+    },
+    {
+      "name": "Event callback failure is captured and rate limited",
+      "passed": true
+    },
+    {
+      "name": "Full character macro cache restores icons across fifty rebuilds",
+      "passed": true
+    }
+  ]
+}

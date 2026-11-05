@@ -1,0 +1,61 @@
+{
+  "addon": "DotCast",
+  "version": "0.1.3-beta",
+  "interface": 16001,
+  "files": [
+    {
+      "path": "Abilities.lua",
+      "bytes": 8427,
+      "sha256": "0fab425f7d3fedaa5aefaa8bb2de170be808f7e3d3331ed68053d9d2638bbd02",
+      "external": false
+    },
+    {
+      "path": "Auras.lua",
+      "bytes": 5049,
+      "sha256": "5206b2848e085a17a0549f567042f79029828a684585e4003c6b245793295be0",
+      "external": false
+    },
+    {
+      "path": "Diagnostics.lua",
+      "bytes": 2689,
+      "sha256": "5ec61990bff68156e21787c1ed4aa310d364e687396b999b0deee91d922c2d91",
+      "external": false
+    },
+    {
+      "path": "DotCast.lua",
+      "bytes": 15654,
+      "sha256": "ee0cc5be1968114e86d3d478833fe0fa39dd63b49f09e36667d6154078386d4b",
+      "external": false
+    },
+    {
+      "path": "DotCast.toc",
+      "bytes": 482,
+      "sha256": "98ba5c359ec761417c9bc73aee8e75a0fa6447078fd6133ffb83b9b8188de171",
+      "external": false
+    },
+    {
+      "path": "MacroActions.lua",
+      "bytes": 3905,
+      "sha256": "8ea2e634275182050b9c9b4abc73ceb383049a7e37a01ddd6ce7f62c9cf47c7a",
+      "external": false
+    },
+    {
+      "path": "Minimap.lua",
+      "bytes": 3537,
+      "sha256": "8e6dca3087537415cce5636544fe1022f6b43ea9ebf089e6fb3d0be810ab7e0c",
+      "external": false
+    },
+    {
+      "path": "Options.lua",
+      "bytes": 8358,
+      "sha256": "6f3f948fbb0d5cb3fceb47c8c48fdadab69dc96ac7b6bee6897658cab00b36ed",
+      "external": false
+    },
+    {
+      "path": "Spells.lua",
+      "bytes": 4258,
+      "sha256": "a82f27ad73245e580f7f852d77626a37247e708aa11df98deaeaa5fdc3070757",
+      "external": false
+    }
+  ]
+}
